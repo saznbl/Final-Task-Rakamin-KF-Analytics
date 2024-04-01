@@ -1,9 +1,8 @@
-# Import Dataset to BigQuery
-## The first step to perform this task analysis is to import the available dataset into BigQuery by clicking the "Create Project" option to create a new project\
+The first step to perform this task analysis is to import the available dataset into BigQuery by clicking the "Create Project" option to create a new project\
 Then, select the "Create Dataset" option to create a dataset with the name "kimia_farma" in the project "Rakamin_KF_Analytics". 
 Next, select the Create Table option on the "kimia_farma" dataset and upload the table.
 
-## Here are the syntaxes used in creating Analysis Tabel in BigQuery:
+Here are the syntaxes used in creating Analysis Tabel in BigQuery:
 CREATE TABLE `kimia_farma.Tabel_Analisa` AS
 SELECT
   ft.transaction_id,
@@ -38,5 +37,3 @@ ON ft.branch_id = kc.branch_id
 JOIN `kimia_farma.kf_product` AS kp
 ON ft.product_id = kp.product_id
 ORDER BY ft.date
-
-[Dashboard Performance Analysis](https://lookerstudio.google.com/reporting/4d6615ca-3799-4daa-a30d-f41d1bfbeb78)
