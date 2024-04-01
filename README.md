@@ -2,7 +2,7 @@
 This repository stores BigQuery syntax and analysis result for the final task in project-based internship program at Kimia Farma
 
 The Task is as follow:
-**Importing Dataset to BigQuery**
+**Importing Dataset to BigQuery.**
 In this project, you are tasked with importing a dataset that has been provided:
 - [kf_final_transaction.csv](https://drive.google.com/file/d/1iDOBdKZ4-kkLhpklQWWrsFvACtI7MCz3/view?usp=sharing), 
 - [kf_inventory.csv](https://drive.google.com/file/d/1ihtG2t0V1AO0IAGkGwQaqtba6AxDEKDI/view?usp=sharing), 
@@ -10,7 +10,7 @@ In this project, you are tasked with importing a dataset that has been provided:
 - [kf_product.csv](https://drive.google.com/file/d/1739wO7BwtVStHCA4Dcj9xGhlc_blBNbT/view?usp=sharing).
 You must import these four datasets to to be a table in BigQuery according to the table name from the dataset, but without the ".csv"
 
-**Create Analysis Table**
+**Create Analysis Table.**
 In this project, you are also asked to create an analysis table based on the aggregation results of the four existing tables
 previously imported. The following are the columns mandatory in the table:
 * transaction_id : transaction ID code,
@@ -35,7 +35,7 @@ previously imported. The following are the columns mandatory in the table:
 * nett_profit : profit earned by Kimia Farma,
 * rating_transaksi : customers rating for transaction
 
-**Create Dashboard Performance Analytics Kimia Farma Business Year 2020-2023**
+**Create Dashboard Performance Analytics Kimia Farma Business Year 2020-2023.**
 Create this dashboard based on the analysis table that previously created in BigQuery. The dashboard must include:
 * Dashboard Title
 * Summary Dashboard
