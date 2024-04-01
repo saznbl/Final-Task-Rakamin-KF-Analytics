@@ -39,4 +39,4 @@ JOIN `kimia_farma.kf_product` AS kp
 ON ft.product_id = kp.product_id
 ORDER BY ft.date
 
-##[Dashboard Performance Analysis](https://lookerstudio.google.com/reporting/4d6615ca-3799-4daa-a30d-f41d1bfbeb78)
+[Dashboard Performance Analysis](https://lookerstudio.google.com/reporting/4d6615ca-3799-4daa-a30d-f41d1bfbeb78)
