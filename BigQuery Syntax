@@ -1,0 +1,3 @@
+The first step to perform this task analysis is to import the available dataset into BigQuery by clicking the "Create Project" option to create a new project\
+Then, select the "Create Dataset" option to create a dataset with the name "kimia_farma" in the project "Rakamin_KF_Analytics". 
+Next, select the Create Table option on the "kimia_farma" dataset and upload the table.
